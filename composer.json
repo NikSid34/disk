@@ -1,0 +1,44 @@
+{
+    "name": "niksid34/disk",
+    "authors": [
+        {
+            "name": "Nikita Sidorov",
+            "email": "NikSid34@gmail.com"
+        }
+    ],
+    "type": "application",
+    "description": "Simple cloud storage application.",
+    "config": {
+        "platform": {
+            "php": "8.1"
+        },
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "require": {
+        "slim/slim": "4.14.0",
+        "slim/psr7": "1.7.0",
+        "twig/twig": "3.20.0",
+        "predis/predis": "2.3.0",
+        "elasticsearch/elasticsearch": "9.0.0",
+        "phpoffice/phpword": "1.3.0",
+        "smalot/pdfparser": "2.12.3",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "ext-fileinfo": "*",
+        "ext-gd": "*",
+        "ext-curl": "*",
+        "nyholm/psr7": "^1.8"
+    },
+    "require-dev": {
+        "vimeo/psalm": "5.26.1",
+        "phpunit/phpunit": "10.5.45",
+        "phake/phake": "4.6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "src"
+        }
+    }
+}

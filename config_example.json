@@ -1,0 +1,8 @@
+{
+  "dbHost": "127.0.0.1",
+  "dbName": "disk",
+  "dbUser": "root",
+  "dbUserPassword": "password",
+  "antiwordPath": "../antiword/bin/antiword.exe",
+  "antiwordMapping": "cp1251.txt"
+}

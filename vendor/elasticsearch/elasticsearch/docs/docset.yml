@@ -1,0 +1,9 @@
+project: 'PHP client'
+cross_links:
+  - docs-content
+  - elasticsearch
+toc:
+  - toc: reference
+  - toc: release-notes
+subs:
+  es:   "Elasticsearch"
